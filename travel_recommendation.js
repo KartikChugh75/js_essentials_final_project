@@ -54,7 +54,7 @@ function searchResult() {
           <div class="recommendation">
             <img src="${place.imageUrl}" alt="${place.name}" />
             <h3>${place.name}</h3>
-            <p>${place.description || place.descrxiption || 'No description available.'}</p>
+            <p>${place.description || 'No description available.'}</p>
           </div>
         `;
         resultsContainer.insertAdjacentHTML('beforeend', placeHTML);
