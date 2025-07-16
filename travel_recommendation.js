@@ -10,7 +10,7 @@ function searchResult() {
       const resultsContainer = document.querySelector('#results');
       resultsContainer.innerHTML = '';
 
-      const keyword = keywordInput;
+      const keyword = keywordInput; // keyword is the user's input
 
       let placesToShow = [];
 
